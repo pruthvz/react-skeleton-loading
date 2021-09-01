@@ -38,3 +38,38 @@ h3 {
   grid-template-columns: 2fr 1fr;
   gap: 100px;
 }
+
+/* .themeMode.dark {
+  background: rgb(102, 102, 102);
+  transition: all 0.2s ease-in-out;
+  color: white !important;
+} */
+
+.section-header {
+  display: grid;
+  grid-template-columns: 0.55fr 0.2fr;
+}
+
+.section-header .toggleBtn {
+  background: #fffffe;
+  color: black;
+  border: none;
+  border-radius: 3px;
+  width: 250px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.section-header .toggleBtn:hover {
+  background: rgb(75, 74, 74);
+  color: white;
+}
+
+.profile {
+  background: rgb(230, 230, 230);
+  padding: 20px;
+  padding-top: 0.5px;
+  padding-bottom: 30px !important;
+
+  border-radius: 20px;
+}
