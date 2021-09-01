@@ -23,6 +23,19 @@ function App() {
         <Articles theme={theme} />
         <User theme={theme} />
       </div>
+      <div class="footer">
+        <p>
+          Copyright Credits @{" "}
+          <a
+            style={{ textDecoration: "none", color: "#eee" }}
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.youtube.com/watch?v=cg_tmJBisp8&list=PL4cUxeGkcC9i6bZhMuAzQpC6YgLmB4k4-&index=1"
+          >
+            The Net Ninja{" "}
+          </a>
+        </p>
+      </div>
     </div>
   );
 }

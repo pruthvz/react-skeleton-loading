@@ -6,7 +6,7 @@ const User = (props) => {
 
   useEffect(() => {
     setTimeout(async () => {
-      const res = await fetch("https://jsonplaceholder.typicode.com/users/1");
+      const res = await fetch("https://jsonplaceholder.typicode.com/users/5");
       const data = await res.json();
       setProfile(data);
     }, 4000);
